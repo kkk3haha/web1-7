@@ -7,19 +7,46 @@
 
 body{
   background-color:silver;
+  margin:48px 0 0 0;
 }
 header{
   background-color:red;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  z-index:+1;
 }
-#main1{
-  background-color:lightgreen;
+#main{
+  background-color:lightyellow;
+  width:calc(100%-200px);
+  min-width:500px;
+  float:left;
 }
-#main2{
-  background-color:brawn;
+#dog_picture{
+  width:300px;
+  position:absolute;
+  left:50px;
+  top:50px;
+}
+.box{
+  background-color:pink;
+  color:black;
+  width:240px;
+  height:80px;
+  margin:5px;
+  float:left;
+  overflow:hidden;
 }
 aside{
   background-color:skyblue;
+  width:500px;
+  float:right;
+  position:relative;
+  top:20px;
+  right:10px;
 }
 footer{
   background-color:gray;
+  clear:both;
 }
